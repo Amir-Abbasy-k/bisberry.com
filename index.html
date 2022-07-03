@@ -1,19 +1,200 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>bisberry.com</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./main.js"></script>
 
+    <title>Bisberry.com</title>
 </head>
-<body>
-<p id="demo"></p>
+
+<body class="">
+    <header>
+        <nav class="
+          flex flex-wrap
+          items-center
+          justify-between
+          w-full
+          p-4
+          md:py-0
+          text-lg text-gray-700
+          bg-transparent
+        ">
+            <div>
+                <a href="#">
+                   
+                </a>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" id="menu-button" class="h-6 w-6 cursor-pointer md:hidden block"
+                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+
+            <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+                <ul class="
+              pt-4
+              text-base text-gray-700
+              md:flex
+              md:justify-between 
+              md:pt-0">
+                    <li>
+                        <a class="md:p-4 py-2 block hover:text-yellow-400" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="md:p-4 py-2 block hover:text-yellow-400" href="#2">Products</a>
+                    </li>
+                    <li>
+                        <a class="md:p-4 py-2 block hover:text-yellow-400" href="#3">About us</a>
+                    </li>
+                    <li>
+                        <a class="md:p-4 py-2 block hover:text-yellow-400" href="#4">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- background-image: linear-gradient(0deg, #fbac02, #fcde00); /* Standard syntax (must be last) */	 -->
+    <div class="bg-gradient-to-b from-yellow-400 to-yellow-500" id="#">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6">
+
+                <div class="mx-auto">
+                    <img class="mx-auto mt-10" width="100" src="./asset/logo.png">
+                    <img class="mx-auto p-10" src="./asset/titile.png">
+                    <p class="text-xl bg-green-600 text-white text-center">
+                        A higher standards in Food </p>
+                </div>
+
+                <div class="flex justify-center">
+                    <div class="packs">
+                        <img class="packs_pack" src='asset/packs.png' />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container mx-auto" id="2">
+        <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
+            <div class="flex justify-center bg-white"><img src="./asset/pack_10.png" /></div>
+            <div class="flex justify-center bg-white"> <img src="./asset/pack_2.png" /></div>
+            <div class="flex justify-center bg-white"><img src="./asset/pack_3.png" /></div>
+            <div class="flex justify-center bg-white"><img src="./asset/pack_4.png" /></div>
+            <div class="flex justify-center bg-white"><img src="./asset/pack_5.png" /></div>
+            <div class="flex justify-center bg-white"><img src="./asset/pack_6.png" /></div>
+            <div class="flex justify-center bg-white"><img src="./asset/pack_7.png" /></div>
+            <div class="flex justify-center bg-white"><img src="./asset/pack_8.png" /></div>
+            <div class="flex justify-center bg-white"><img src="./asset/pack_9.png" /></div>
+            <div class="flex justify-center bg-white"><img src="./asset/pack_1.png" /></div>
+        </div>
+    </div>
+
+
+    <div class="" style="background-color: #331122;">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 relative">
+
+                <img width="150" src="./asset/honey.png"
+                    style="position: absolute; top: 0px;left: -120px; z-index: 1" />
+                <img class="animate-[spin_8s_infinite]" width="100" src="./asset/sugar.png"
+                    style="position: absolute;  top: 0px;left: 50%;z-index: 3" />
+                <img width="150" src="./asset/ice.png"
+                    style="position: absolute;  left: 60px; bottom: 0px; z-index: 1" />
+
+                <div class="mx-auto px-10 pt-12">
+                    <p><b style="font-size: 60px; font-weight: 100; color: white;">CHOCOLATE</b></br>
+                    <p style="font-size: 30px; color: white;">Ice Creames. Pastry & Confectionery.</p>
+                    <p style="font-size: 20px;font-weight: 200; color: white;">Mustard <span class="dot">.</span>
+                        Honey <span class="dot">.</span> Baking powder <span class="dot">.</span> Yeast <span
+                            class="dot">.</span> Sugar</p>
+                </div>
+
+                <div class="flex justify-center">
+                    <div class="packs">
+                        <img class="packs_pack" src='./asset/choc.png' />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="relative my-16" id="3">
+        <img src='./asset/titile.png' class="m-auto p-10" />
+        <div class="m-auto w-3/5">
+            <p class="text-center text-normal text-xl text-gray-700">
+                BISBERRY ,our food processing unit is at KINFRA PARK, Taliparamba. we believe in quality foods that is
+                why we maintain international standard.we value our customers satisfaction and advicesBISBERRY, We are the manufacturer of tasty and quality chips and snacks, We believe in quality foods that is why we maintain international standard.we value our customers satisfaction and advices.</p>
+            </br>
+            <p class="text-center text-normal text-xl text-gray-700">
+                BISBERRY does not contain any kind of adulteration and always maintain the natural taste and quality.
+                The products are manufactured in a highly clean and hygienic atmosphere.
+            </p>
+        </div>
+
+        <img class="particle animate-[spin_9s_infinite]" width="150" src="./asset/Particles/p1.png"
+            style="position: absolute;  left: 160px; top: 0px; z-index: -10" />
+        <img class="particle animate-[spin_6s_infinite]" width="200" src="./asset/Particles/p2.png"
+            style="position: absolute;  right: 260px; top: 0px; z-index: -10" />
+
+        <img class="particle animate-[spin_10s_infinite]" width="200" src="./asset/Particles/p3.png"
+            style="position: absolute;  left: 360px; bottom: 0px; z-index: -10" />
+
+        <img class="particle animate-[spin_8s_infinite]" width="100" src="./asset/Particles/p4.png"
+            style="position: absolute;  right: 60px; bottom: 0px; z-index: -10" />
+
+    </div>
+
+
+	
+    <div class="bg-gradient-to-b from-yellow-400 to-yellow-500 relative p-6 px-20" id="4">
+        <img src="asset/logo.png" class="absolute m-auto -translate-y-16"  style="left: 40%">
+
+            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 ">
+
+<div  class="mt-8">
+<p>Manufactured and distributed by Start bakes</br> 
+Kinfra Textile Center Kannur, Nadukani, </br> 
+Plot F Taliparamba, Kannur 670 142 </p>
+</div>
+
+<div class="items-center justify-center">
+	  <a href="" class="bg-yellow-300 p-1 text-lg font-bold flex mb-2"><img width="40" src="asset/phone.png"/>8981 200200</a> 
+       <a href="" class="bg-yellow-300 p-1 text-lg font-bold flex mb-2"><img width="40" src="asset/phone.png"/>9567 245244 </a>
+       <a href="" class="bg-yellow-300 p-1 text-lg font-bold flex mb-2"><img width="40"  src="asset/phone.png"/> 9656 452881 </a>
+</div>
+
+</div>
+
+<div  style="position: absolute; right: 150px; bottom: 10px; filter: invert(100);">
+    <!-- <img src="./asset/tag.png">   -->
+    <p><a href="https://www.instagram.com/amir_abbasy_" style="color: #fff; opacity: 0.4; text-decoration: none;">Design -  Ph: 6238 474 116</a></p>
+    </div>
+</div>
+
+
+
+
+
 </body>
-	<script type="text/javascript">
-		if (screen.width <= 700) {
-     		document.location = "phone.htm";
-		}else{
-			document.location = "pc.htm";
-		}
+<script>
+    const button = document.querySelector('#menu-button');
+    const menu = document.querySelector('#menu');
 
 
-	</script>
+    button.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+    });
+
+</script>
+
 </html>
